@@ -1,0 +1,12 @@
+{
+  "name": "task-manager-app",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "build": "npm --prefix backend run build",
+    "start": "npm --prefix backend start"
+  }
+}
